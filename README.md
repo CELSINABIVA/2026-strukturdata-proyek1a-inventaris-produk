@@ -1,7 +1,7 @@
 # 2026-daa-proyek1a-inventaris-produk
 # Sistem Manajemen Inventaris Produk
 
-Proyek 1a mata kuliah Analisis Algoritma, Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Sultan Syarif Kasim Riau.
+Proyek 1a mata kuliah Struktur Data, Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Sultan Syarif Kasim Riau.
 
 - Nama: CELSI NABIVA
 - NIM: 12550125685
