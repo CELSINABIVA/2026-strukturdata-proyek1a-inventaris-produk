@@ -1,4 +1,3 @@
-# 2026-daa-proyek1a-inventaris-produk
 # Sistem Manajemen Inventaris Produk
 
 Proyek 1a mata kuliah Struktur Data, Program Studi Teknik Informatika, Fakultas Sains dan Teknologi, UIN Sultan Syarif Kasim Riau.
@@ -7,9 +6,11 @@ Proyek 1a mata kuliah Struktur Data, Program Studi Teknik Informatika, Fakultas 
 - NIM: 12550125685
 
 ## Deskripsi
+
 Program ini mensimulasikan sistem inventaris produk e-commerce yang harus menangani jutaan data. Tiga operasi utamanya adalah menambah produk, mencari produk berdasarkan ID, dan menghapus produk.
 
 Proyek ini membandingkan kompleksitas waktu (Big-O) tiga struktur data:
+
 1. Python list (array-based)
 2. Linked list (ADT buatan sendiri)
 3. Hash table (Python dict)
@@ -20,16 +21,19 @@ Hasilnya, **hash table (dict)** dipilih karena tambah, cari, dan hapus berdasark
 
 | File | Fungsi |
 |---|---|
-| `inventaris_produk.py` | Program CLI dengan ADT `InventarisProduk` berbasis dict (tambah, cari, hapus, tampilkan semua) |
-| `benchmark.py` | Pengukuran waktu operasi pada dict, list, linked list, dan list terurut (binary search) |
+| `main.py` | Program utama (CLI) dengan menu tambah, cari, hapus, dan tampilkan produk |
+| `produk.py` | Kelas `Produk` (id_produk, nama, harga, stok, kategori) |
+| `hash_table.py` | ADT `InventarisProduk` berbasis dict (tambah, cari, hapus) |
+| `benchmark.py` | Pengukuran waktu operasi pada dict, list, linked list, dan list terurut (binary search). Berdiri sendiri, tidak butuh file lain |
 
 ## Cara Menjalankan
 
-Pastikan Python 3 sudah terpasang. Tidak ada library tambahan yang dibutuhkan.
+Pastikan Python 3 sudah terpasang. Tidak ada library tambahan yang dibutuhkan. `main.py` membutuhkan `produk.py` dan `hash_table.py` di folder yang sama. `benchmark.py` bisa dijalankan sendiri.
+
 Menjalankan program inventaris:
 
 ```
-python inventaris_produk.py
+python main.py
 ```
 
 Menjalankan benchmark:
@@ -73,4 +77,4 @@ Angka dapat berbeda tergantung perangkat yang digunakan.
 
 ## Link Video Presentasi
 
-
+[isi link video]
