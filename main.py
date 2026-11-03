@@ -1,5 +1,6 @@
 
-from inventaris_produk import Produk, InventarisProduk
+from produk import Produk
+from hash_table import InventarisProduk
 
 
 def input_angka(pesan, tipe=int):
@@ -45,6 +46,7 @@ def main():
         elif pilihan == "2":
             id_produk = input("ID Produk yang dicari: ").strip()
             hasil = inventaris.cari_produk(id_produk)
+
             print(hasil if hasil else "Produk tidak ditemukan.")
 
         elif pilihan == "3":
